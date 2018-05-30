@@ -1,0 +1,19 @@
+{
+  "name": "mobile-automation-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flexdrive/Mobile-Automation-Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flexdrive/Mobile-Automation-Challenge/issues"
+  },
+  "homepage": "https://github.com/flexdrive/Mobile-Automation-Challenge#readme"
+}
