@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/flexdrive/Mobile-Automation-Challenge/issues"
   },
-  "homepage": "https://github.com/flexdrive/Mobile-Automation-Challenge#readme"
+  "homepage": "https://github.com/flexdrive/Mobile-Automation-Challenge#readme",
+  "dependencies": {
+    "wd": "^1.8.0"
+  }
 }
