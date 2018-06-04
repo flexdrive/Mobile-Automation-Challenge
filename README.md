@@ -1,5 +1,7 @@
-# Installation Instructions for Android SDK and Appium (MacOS)
+# Mobile Automation Challenge
 
+
+## Installation Instructions for Android SDK and Appium (MacOS)
 ### 1 - Install latest Android SDK
 	https://developer.android.com/studio/install.html
 
@@ -38,11 +40,23 @@ To edit your .bash_profile run: sudo nano ~/.bash_profile
 ### 8 - Now install appium
 	npm install -g appium
 
-### 9 - Start the appium server by running the following command
+### 9 - Install WebDriver packages
+npm install wd
+
+### 10 - Start the appium server by running the following command
 	appium
 
-### 10 Install BookSearch Test App
-To install an APK file on the emulated device, drag an APK file onto the emulator screen.
+### 11 Install BookSearch Test App
+To install an BookSearch.apk file on the emulated device, drag an APK file onto the emulator screen.
 An APK Installer dialog appears.
 When the installation completes, you can view the app in your apps list.
-![alt text](screenshots/BookSearchApp.png "BookSearch App should appear in the Emulator")
+<br />
+<img src="screenshots/BookSearchApp.png" width="200">
+
+## Challenge Question:
+1. We are developing an MVP of a BookSearch mobile app.
+For this MVP we only have simple searching capabilities where results of the books
+are returned correctly according to search keywords.
+2. Knowing that searching logic has been tested thoroughly with unit tests,
+which tests would you write to ensure our end users are satisfied with the functionality of the app.  Write out the tests in any format
+3. Pick a couple of tests from #2 and using Appium (granted you completed Installation steps above), the language of your choice (Node/Javascript preferred) send us the code (we don't expect you to spend more than a couple hours on this exercise)
